@@ -1,0 +1,67 @@
+body{
+    text-align: center;
+}
+
+
+.main{
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+}
+
+
+.horizontal{
+    height: 49%;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+
+.green{
+    background-color: rgb(62,221,75);
+    text-align: center;
+    padding-top: 125px;
+    width: 50%;
+    border-radius: 20px;
+    border: 5px solid black;
+}
+.yellow{
+    background-color: rgb(255,234,55);
+    text-align: center;
+    padding-top: 125px;
+    width: 50%;
+    border-radius: 20px;
+    border: 5px solid black;
+}
+.red{
+    background-color: rgb(221,75,62);
+    text-align: center;
+    padding-top: 125px;
+    width: 50%;
+    border-radius: 20px;
+    border: 5px solid black;
+}
+.blue{
+    background-color: rgb(75,62,221);
+    text-align: center;
+    padding-top: 125px;
+    width: 50%;
+    border-radius: 20px;
+    border: 5px solid black;
+}
+
+.flash{
+    background-color: white;
+}
+
+.userFlash{
+    background-color: rgb(3, 255, 3);
+}
+
+.gameOver{
+    background-color: red;
+}
